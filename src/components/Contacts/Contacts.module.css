@@ -1,0 +1,33 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+}
+
+.text p {
+  margin-left: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.btn {
+  padding: 8px 16px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #c82333;
+}

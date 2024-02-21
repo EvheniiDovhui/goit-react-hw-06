@@ -3,11 +3,12 @@
   padding: 0;
 }
 
-.listItem {
-  margin-bottom: 10px;
+.list li {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.deleteButton {
-  margin-left: 10px;
-  cursor: pointer;
+.list li:last-child {
+  margin-bottom: 0;
 }

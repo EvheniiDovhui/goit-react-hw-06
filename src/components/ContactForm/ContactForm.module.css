@@ -1,0 +1,44 @@
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.item {
+  display: block;
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.error {
+  color: #dc3545;
+  font-size: 0.8rem;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
